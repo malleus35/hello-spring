@@ -13,6 +13,7 @@ import org.springframework.transaction.annotation.Transactional;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
+// 기본적으로는 단위 테스트를 더 잘 만드는게 중요
 @SpringBootTest // 스프링 컨테이너와 테스트를 함께 실행해줌
 @Transactional // 테스트를 한번 하고나서 트랜잭션을 실행하고 끝나면 롤백이됨.
 class MemberServiceIntegrationTest {
